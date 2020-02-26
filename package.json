@@ -1,0 +1,10 @@
+{
+  "name": "my-teams-service",
+  "version": "1.0.0",
+  "description": "Scrape team schedules for my-teams",
+  "author": {
+    "email": "tatianaveratti@gmail.com",
+    "name": "Tatiana Veratti"
+  },
+  "license": "MIT"
+}

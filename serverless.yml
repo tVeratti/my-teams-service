@@ -1,0 +1,13 @@
+service: my-teams-service
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  scrape:
+    handler: handler.scrape
+    events:
+      - http:
+          path: scrape
+          method: get
